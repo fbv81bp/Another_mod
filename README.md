@@ -1,0 +1,1 @@
+This morning I tride to understand the Montgomery modular reduction algorithm. Frankly put: I still don't succeed. But I invented recursive modular reduction algorithm, that solely uses division and modulus of the next power of two, furthermore multiplication and subtraction above that.
