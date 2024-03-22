@@ -8,8 +8,8 @@ def zalgorithm(up_for_mod, prime, pow_2):
     # doing magic
     error = pow_2 -  prime
     while True:    
-        divide = up_for_mod // pow_2
-        modulate = up_for_mod %  pow_2
+        divide     = up_for_mod // pow_2
+        modulate   = up_for_mod %  pow_2
         up_for_mod = modulate + error * divide
         if divide == 0:
             break
