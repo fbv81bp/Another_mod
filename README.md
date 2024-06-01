@@ -2,4 +2,4 @@ This morning I tried to understand the Montgomery modular reduction algorithm. F
 
 Then I found out it can easily be described in a loop too.
 
-testing.txt is the output of loop_mod.py
+testing.txt is the output of loop_mod.py: it wasn't easy to find a test case, where the subtraction in the end needs to be performed.
