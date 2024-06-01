@@ -16,7 +16,7 @@ def zalgorithm(up_for_mod, prime, pow_2, rec_depth):
         if outcome > prime:
             return outcome - prime, rec_depth 
         else:
-            return outcome
+            return outcome, rec_depth
     if outcome > prime and rec_depth < 15:
         outcome, rec_depth = zalgorithm(outcome, prime, pow_2, rec_depth + 1)
     # result
